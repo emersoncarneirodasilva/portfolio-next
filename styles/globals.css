@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
 body {
   font-family: sans-serif;
   color:#354358;
