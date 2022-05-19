@@ -1,13 +1,13 @@
 module.exports = {  
   content: [
-    "./pages/**/*.tsx",
-    "./components/**/*.tsx",
+    './pages/**/*.tsx',
+    './components/**/*.tsx',
   ],
-  darkMode: "class",
+  darkMode: 'class',
   theme: {
     fontFamily: {
-      sans: ['ui-sans-serif', 'system-ui'],
-      kaushan: ['Kaushan Script'],
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'kaushan': ['Kaushan Script'],
     },
     boxShadow: {
       'custom-light': ' 0 0 10px #313131',
