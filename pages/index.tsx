@@ -31,22 +31,20 @@ const About = ({endpoint}) => {
   )
 }
 
-export default About
-
-export const getServerSideProps: GetServerSideProps = async (context: GetServerSidePropsContext) => {
-  /*console.log(process.env.VERCEL_URL)
+/* export const getServerSideProps: GetServerSideProps = async (context: GetServerSidePropsContext) => {
+  console.log(process.env.VERCEL_URL)
   
   const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
   const data = await res.json()
   
   console.log(data)
-*/
+
   return {
     props: {
       endpoint: process.env.VERCEL_URL,
     }
   }
-}
+}*/
 /*
 export const getStaticProps: GetStaticProps = async (context: GetStaticPropsContext) => {
   const res = await fetch("http://localhost:3000/api/services")
@@ -60,3 +58,5 @@ export const getStaticProps: GetStaticProps = async (context: GetStaticPropsCont
     }
   }
 }*/
+
+export default About
