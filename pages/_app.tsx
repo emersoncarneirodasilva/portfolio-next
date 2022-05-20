@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps, router }) {
   return (
     <>    
       <Head>
-        <title>Portifólio</title>
+        <title>Portfólio</title>
         <link rel="shortcut icon" href="/favicon.png" />
         <meta name="description" content="Desenvolvedor Web a procura de emprego" />
         <meta name="keywords" content="Desenvolvedor Web, Programador Front-End, Freelancer" />
