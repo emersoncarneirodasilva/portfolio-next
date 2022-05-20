@@ -1,4 +1,4 @@
-## Portifólio Next
+## Portfólio Next
 
 Projeto de um portfólio moderno, dinâmico, harmonizado e responsivo.<br />
 Foram utilizadas as tecnologias: Next.JS, Tailwind CSS, Typecript, Framer Motion. <br />
