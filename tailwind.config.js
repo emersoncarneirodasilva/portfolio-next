@@ -18,6 +18,14 @@ module.exports = {
         green: {
           DEFAULT: '#00f260',
         },
+
+        azul: '#5D9FFF',
+        azulC: '#B8DCFF',
+        azulCl: '#6BBBFF',
+
+        roxo: '#b993d6',
+        roxo2: '#8ca6db',
+        
         dark: {
           DEFAULT: '#010101',
           100: '#0a0b0e',

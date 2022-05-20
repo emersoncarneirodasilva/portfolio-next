@@ -18,7 +18,7 @@ const Sidebar = () => {
         className="w-32 h-32 mx-auto rounded-full"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green">Emerson</span> C. Silva
+        <span className="text-azul">Emerson</span> C. Silva
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
         Desenvolvedor Web
@@ -31,7 +31,7 @@ const Sidebar = () => {
       </a>
 
       {/* Ícones de mídia sociais */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-azul md:w-full">
         <a href="https://github.com/emersoncarneirodasilva">
           <AiFillGithub className="w-8 h-8 cursor-pointer hover:scale-110" />
         </a>
@@ -52,13 +52,13 @@ const Sidebar = () => {
 
       {/* Botão do email */}
       <button 
-        className="w-9/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
+        className="w-9/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-azul to-azulCl hover:scale-105 focus:outline-none"
         onClick={() => window.open('mailto:mersiocarneiro87@gmail.com')}>
         Email
       </button>
       <button 
         onClick={changeTheme}
-        className="w-9/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105">
+        className="w-9/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-azul to-azulCl focus:outline-none hover:scale-105">
         Mudar Tema
       </button>
     </>    
