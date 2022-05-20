@@ -28,7 +28,7 @@ const ProjectCard: FunctionComponent<{
   return (
     <div>
       <Image 
-        src={image_path} width={275} height={170} alt={name} layout="responsive"
+        src={image_path} width={275} height={140} alt={name} layout="responsive"
         className="cursor-pointer" onClick={() => setShowDetail(id)} 
       />
       <p className="my-2 text-center">{name}</p>
@@ -39,7 +39,7 @@ const ProjectCard: FunctionComponent<{
           <motion.div variants={stagger} initial="initial" animate="animate">
             
             <motion.div variants={fadeInUp} className="border-4 border-gray-100">
-              <Image src={image_path} width={275} height={170} alt={name} layout="responsive" />   
+              <Image src={image_path} width={275} height={140} alt={name} layout="responsive" />   
             </motion.div>
 
             <motion.div className="flex justify-center my-4 space-x-3" variants={fadeInUp}>

@@ -10,7 +10,8 @@ function MyApp({ Component, pageProps, router }) {
     <>    
       <Head>
         <title>Portifólio</title>
-      </Head>
+        <link rel="shortcut icon" href="/favicon.png" />
+      </Head>      
       <ThemeProvider attribute="class"> 
         <div className="grid grid-cols-12 gap-6 px-5 my-14 lg:mb-0 md:mb-16 sm:px-20 md:px-32 lg:px-36 xl:px-48">
         

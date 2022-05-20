@@ -8,12 +8,12 @@ import { Category } from "../type";
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData)
-  const [active, setActive] = useState("all")
+  const [active, setActive] = useState("Todos")
   
   const [showDetail, setShowDetail] = useState<number | null>(null)
   
-  const handlerFilterCategory = (category: Category | "all") => {
-    if (category === "all") {
+  const handlerFilterCategory = (category: Category | "Todos") => {
+    if (category === "Todos") {
       setProjects(projectsData)
       setActive(category)
       return
