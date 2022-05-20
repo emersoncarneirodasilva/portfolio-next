@@ -11,6 +11,8 @@ function MyApp({ Component, pageProps, router }) {
       <Head>
         <title>Portifólio</title>
         <link rel="shortcut icon" href="/favicon.png" />
+        <meta name="description" content="Desenvolvedor Web a procura de emprego" />
+        <meta name="keywords" content="Desenvolvedor Web, Programador Front-End, Freelancer" />
       </Head>      
       <ThemeProvider attribute="class"> 
         <div className="grid grid-cols-12 gap-6 px-5 my-14 lg:mb-0 md:mb-16 sm:px-20 md:px-32 lg:px-36 xl:px-48">
