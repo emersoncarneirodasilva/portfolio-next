@@ -93,6 +93,17 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
   { 
     id: 0,
+    name: "GitHub API",
+    description:
+      "Criação de uma interface componentizada onde é possível buscar perfis de usuários do github.",
+    image_path: "/images/github-api.png",
+    deployed_url: "https://github-api-snowy.vercel.app/",
+    github_url: "https://github.com/emersoncarneirodasilva/github-api",
+    category: ["React.JS"],
+    key_techs: ["React.JS"],
+  },
+  { 
+    id: 1,
     name: "Login Page",
     description:
       "Página de login (login page), construída com Next.JS e Tailwind.",
@@ -103,7 +114,7 @@ export const projects: IProject[] = [
     key_techs: ["React.JS", "Next.JS"],
   },
   { 
-    id: 1,
+    id: 2,
     name: "PokeNext",
     description:
       "Projeto de uma pokedex, onde podemos consultar imagens e características dos pokemons (consultando uma API).",
@@ -114,7 +125,7 @@ export const projects: IProject[] = [
     key_techs: ["React.JS", "Next.JS"],
   },
   { 
-    id: 2,
+    id: 3,
     name: "Buscador Cep",
     description:
       "Projeto de localização de endereço a partir do CEP.",
@@ -125,7 +136,7 @@ export const projects: IProject[] = [
     key_techs: ["React.JS"],
   },
   { 
-    id: 3,
+    id: 4,
     name: "Meu Link",
     description:
       "Projeto de um encurtador de links feito com React.JS.",
@@ -136,7 +147,7 @@ export const projects: IProject[] = [
     key_techs: ["React.JS"],
   },
   { 
-    id: 4,
+    id: 5,
     name: "Calculadora IMC",
     description:
       "Projeto de uma calculadora IMC utilizando React.JS.",
@@ -147,7 +158,7 @@ export const projects: IProject[] = [
     key_techs: ["React.JS"],
   },
   { 
-    id: 5,
+    id: 6,
     name: "Jogo da Velha",
     description:
       "Recriação do jogo da velha, criado utilizando HTML, CSS e JavaScript.",
@@ -158,7 +169,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
   { 
-    id: 6,
+    id: 7,
     name: "Jogo Genius",
     description:
       "Recriando jogo Genius utilizando HTML, CSS e JavaScript.",
@@ -169,7 +180,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
   { 
-    id: 7,
+    id: 8,
     name: "Relógio Glass",
     description:
       "Projeto criado com HTML, CSS e JavaScript.",
@@ -180,7 +191,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
   { 
-    id: 8,
+    id: 9,
     name: "Website Restaurant",
     description:
       "Site recriado utilizando HTML, CSS e JavaScript.",
@@ -191,7 +202,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
   { 
-    id: 9,
+    id: 10,
     name: "Website Gym",
     description:
       "Site recriado utilizando HTML, CSS e JavaScript.",
@@ -202,7 +213,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
   { 
-    id: 10,
+    id: 11,
     name: "Website Petshop",
     description:
       "Site recriado utilizando HTML, CSS e JavaScript.",
@@ -213,7 +224,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript", "jQuery"],
   },
   { 
-    id: 11,
+    id: 12,
     name: "Starbucks Clone",
     description:
       "Landing page recriada utilizando HTML, CSS e JavaScript.",
@@ -224,7 +235,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
   { 
-    id: 12,
+    id: 13,
     name: "Recriando Netflix",
     description:
       "Recriando o site Netflix utilizando HTML, CSS e jQuery.",
@@ -235,7 +246,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "jQuery"],
   },
   { 
-    id: 13,
+    id: 14,
     name: "Currículo Online",
     description:
       "Currículo criado utilizando HTML, CSS.",
