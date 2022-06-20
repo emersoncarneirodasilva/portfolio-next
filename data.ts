@@ -242,11 +242,22 @@ export const projects: IProject[] = [
     image_path: "/images/netflix02.png",
     deployed_url: "https://emersoncarneirodasilva.github.io/recriando-netflix/",
     github_url: "https://github.com/emersoncarneirodasilva/recriando-netflix",
-    category: ["HTML", "CSS", "jQuery"],
-    key_techs: ["HTML", "CSS", "jQuery"],
+    category: ["HTML", "CSS", "JavaScript", "jQuery"],
+    key_techs: ["HTML", "CSS", "JavaScript", "jQuery"],
   },
   { 
     id: 14,
+    name: "Amazing Clock",
+    description:
+      "Relógio incrível (amazing clock) construído com HTML e CSS.",
+    image_path: "/images/amazing-clock.jpeg",
+    deployed_url: "https://emersoncarneirodasilva.github.io/amazing-clock/",
+    github_url: "https://github.com/emersoncarneirodasilva/amazing-clock",
+    category: ["HTML", "CSS", "JavaScript"],
+    key_techs: ["HTML", "CSS", "JavaScript"],
+  },
+  { 
+    id: 15,
     name: "Currículo Online",
     description:
       "Currículo criado utilizando HTML, CSS.",
@@ -255,5 +266,5 @@ export const projects: IProject[] = [
     github_url: "https://github.com/emersoncarneirodasilva/curriculo_online",
     category: ["HTML", "CSS"],
     key_techs: ["HTML", "CSS"],
-  },
+  }  
 ]

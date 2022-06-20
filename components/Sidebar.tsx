@@ -18,7 +18,7 @@ const Sidebar = () => {
         className="w-32 h-32 mx-auto rounded-full"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-azul">Emerson</span> C. Silva
+        <span className="text-azul">Emerson</span> C. da Silva
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
         Desenvolvedor Web
