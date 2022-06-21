@@ -67,12 +67,12 @@ export const languages: ISkill[] = [
   },
   {
     name: "React.JS",
-    level: "65%",
+    level: "70%",
     Icon: BsCircleFill
   },
   {
     name: "Next.JS",
-    level: "70%",
+    level: "65%",
     Icon: BsCircleFill
   },  
 ]
